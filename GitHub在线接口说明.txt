@@ -1,0 +1,29 @@
+GitHub online config guide
+
+1. Upload the whole local package folder to a GitHub repository.
+
+2. Your RawBaseUrl should look like this:
+https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/YOUR_FOLDER_IN_REPO
+
+Example:
+https://raw.githubusercontent.com/abc/iptv/main/tvbox
+
+3. Run this command on your PC to generate the online json:
+powershell -ExecutionPolicy Bypass -File "YOUR_LOCAL_PACKAGE_PATH\build-online-config.ps1" -RawBaseUrl "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/YOUR_FOLDER_IN_REPO"
+
+4. The script will generate:
+YOUR_LOCAL_PACKAGE_PATH\6455.online.json
+
+5. Upload 6455.online.json to the same GitHub repository.
+
+6. Use this online url on your phone:
+https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/YOUR_FOLDER_IN_REPO/6455.online.json
+
+Notes:
+- After this, when you add a new site or edit py/txt/jar files, you only need to update GitHub and regenerate 6455.online.json.
+- You do not need to rebuild and resend the whole local package to the phone.
+- The script automatically converts ./jar, ./lib/py, ./other and similar local paths into GitHub raw urls.
+
+Recommended:
+- Keep the repository public so the phone can fetch the files directly.
+- If you want, the next step can be a single fixed entry url solution, so later updates do not require changing the phone-side address at all.

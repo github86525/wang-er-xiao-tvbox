@@ -1,0 +1,6 @@
+﻿影视仓↓
+clan://localhost/tvbox/6455/6455.json
+影视或OK影视↓
+file://localhost/tvbox/6455/6455.json
+FTP↓
+http://127.0.0.1:9978/file/tvbox/6455/6455.json
