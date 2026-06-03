@@ -1,0 +1,19 @@
+﻿=================================
+ 王二小修改版 — 在线接口地址
+=================================
+
+📱 OK影视/影视仓 填入以下地址:
+
+【推荐】jsDelivr CDN (国内可用)
+https://cdn.jsdelivr.net/gh/github86525/wang-er-xiao-tvbox@main/6455.online.json
+
+【备用】GitHub代理
+https://ghproxy.com/https://raw.githubusercontent.com/github86525/wang-er-xiao-tvbox/main/6455.online.json
+
+【直连】raw.githubusercontent（部分网络不可用）
+https://raw.githubusercontent.com/github86525/wang-er-xiao-tvbox/main/6455.online.json
+
+GitHub仓库地址:
+https://github.com/github86525/wang-er-xiao-tvbox
+
+更新方法: 修改本地文件后，双击运行 一键上传更新.bat
